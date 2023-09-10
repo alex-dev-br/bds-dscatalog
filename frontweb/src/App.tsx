@@ -1,14 +1,10 @@
 import './assets/styles/custom.scss';
 import './App.css';
 
-import Home from 'pages/Home';
+import Paths from 'Paths';
 
-const App = () => {
-  return (
-    <>
-      <Home />
-    </>
-  );
+function App () {
+  return <Paths />;
 };
 
 export default App;
